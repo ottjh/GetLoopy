@@ -31,11 +31,11 @@ public class Main
             System.out.print(downTwo + " ");
         }
 
-        //Task 5 NOT DONE YET JAMES CHANGE THIS TO GET IT RIGHT!
+        //Task 5
         System.out.println();
         for (int columnControl = 0; columnControl < 5; columnControl++)
         {
-            for (int rowControl = 0; rowControl < 5; rowControl++)
+            for (int rowControl = 0; rowControl < columnControl + 1; rowControl++)
             {
                 System.out.print("* ");
             }
@@ -43,6 +43,15 @@ public class Main
         }
 
         //Task 6
+        System.out.println();
+        for (int columnControl = 5; columnControl > 0; columnControl--)
+        {
+            for (int rowControl = 0; rowControl < columnControl; rowControl++)
+            {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
 
         //Task 7
         System.out.println();
@@ -54,5 +63,9 @@ public class Main
             }
             System.out.println();
         }
+
+        //Task 8
+        //Found on different class
+
     }
 }
